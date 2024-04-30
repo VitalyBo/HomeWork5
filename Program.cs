@@ -159,3 +159,63 @@ namespace Сonsole
         }
     }
 }
+
+/*In programming, conditions like if, else if, and else blocks are known as a "Decision Structure."
+
+In a single if/else if/else structure, only one code block can run.
+
+The process goes like this:
+
+If the condition of the if statement is true, the code block associated with it will run, and the rest of the structure will be skipped.
+If the if condition is false, but the condition of an else if statement is true, the code block associated with the else if will run, and the rest of the structure will be skipped.
+If none of the conditions are true, the else block will run by default.
+
+f you have two if separate statements, can these both run?
+
+if (condition) { // first if }
+if (second condition { // second if }
+Yes, if you have two separate if statements, each with its own condition, both blocks of code can potentially run independently.
+
+If condition1 is true, the code inside the first if block will run. Similarly, if condition2 is true, the code inside the second if block will run. If both conditions are true, both blocks of code will run sequentially.
+
+
+
+
+How many if else if statements can you have?
+
+In most programming languages, there is typically no strict limit on the number of else if statements you can have. You can have as many else if statements as necessary to handle various conditions in your code. This structure allows you to check multiple conditions sequentially until one of them evaluates to True. However, it's essential to consider readability and maintainability when adding numerous else if statements, as overly complex logic can become difficult to understand and debug.
+
+
+
+
+
+
+
+Can you have an else if / else without an if?
+else if (condition)  { // else if statement }
+else { // else statement }
+
+No, in most programming languages, you cannot have an else if or else statement without an if preceding it. These constructs are part of conditional statements that require an initial condition to evaluate.
+
+For example, in languages like Python, C, Java, etc., the else if (or elif in Python) and else statements must follow an if statement.
+
+
+
+
+Can you have an if without an else?
+if (condition) { // if statement }
+
+Yes, you can have an if statement without an else block.
+
+In programming, an if statement checks a condition and executes a block of code if that condition is true. However, if the condition is false, the code simply continues executing without any special handling.
+
+
+
+
+Which logical operator do you choose if you have 2 Conditions and both need to be true?
+
+If you have two conditions and both need to be true for an overall condition to be true, you would typically use the "logical AND" operator. In most programming languages, the logical AND operator is represented by &&.
+
+Which logical operator do you choose if you have 2 Conditions, but only one needs to be true?
+
+If you have two conditions and only one needs to be true for an overall condition to be true, you would typically use the "logical OR" operator. In most programming languages, the logical OR operator is represented by ||.*/
